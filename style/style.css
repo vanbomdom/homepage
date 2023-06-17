@@ -205,4 +205,48 @@ h1 {
     h1 {
         font-size: 30px;
     }
+        .about-t4 {
+            font-size: clamp(26px, 6vw, 36px);
+            font-weight: 600;
+            color: #cb9897;
+            margin: 0 10px; 
+            
+        }
+        
+        .about_box {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column-reverse;
+        }
+    
+        .about_text {
+            width: 80%;
+            max-width: 100%;
+        }
+        .about_img img{
+            height: 200px;
+            width: 200px;
+        }
+        .img-round {
+            margin-left: 0;
+            
+        }
+    
+        .about_img {
+            width: auto;
+            padding: -20px;
+            font-size: 0.9em;
+            margin-bottom: 40px;
+        }
+        .about_text{
+            font-size: 1rem;
+            padding: 0;
+            margin: 0;
+        }
+        #aboutme{
+            margin: 0 auto;
+        }
+
+    
 }
