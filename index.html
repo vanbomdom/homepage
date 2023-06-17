@@ -1,10 +1,68 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Résumé</title>
   </head>
   <body>
-    ― Hello World! &#x1F609;
-  </body>
+    <!-- ― Hello World! &#x1F609; -->
+       <!-- START NAVBAR -->
+  <div id="wrapper1" class="container-fluid">
+    <nav class="navigation">
+      <div class="left">
+        <div class="logo">OpenSourceJam</div>
+        <div class="sublogo">VISUALS</div>
+      </div>
+
+      <div class="right">
+        <ul>
+          <li><a href="#aboutme">ABOUT ME</a></li>
+          <li><a href="#portfolio">LINE TIME</a></li>
+          <li><a href="#footer">CONTACT</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- END NAVBAR -->
+
+   
+    <!-- contact form -->
+      <div class="main-content">
+        <h2>Escríbeme un mensaje</h2>
+
+        <form method="post" action="javascript:void(0);" onsubmit="submitForm()">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" placeholder="Su nombre..." required>
+
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" placeholder="example@dominio.com" required>
+
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" placeholder="Escríbanos su mensaje..." required></textarea>
+
+            <input type="checkbox" id="terms" name="terms" required>
+            <label for="terms">He leído y acepto la <a href="http://www.example.com/privacy-policy">Política de privacidad</a>.</label>
+
+            <input type="submit" value="Enviar">
+        </form>
+        <div id="success-message"></div>
+      </div>
+          <!-- START FOOTER -->
+        <div id="footer" class="container-fluid">
+          <a href="https://www.facebook.com/joelstephensonphoto/" target="blank" class="icon-btn facebook-icn"><i class="fa fa-facebook"></i></a>
+          <a href="https://twitter.com/Joel_Stephenson" target="blank" class="icon-btn twitter-icn"><i class="fa fa-twitter"></i></a>
+          <a href="https://www.instagram.com/joel_stephenson/" target="blank" class="icon-btn instagram-icn"><i class="fa fa-instagram"></i></a>
+          <a href="mailto:info@opensourcejam.com" target="_blank" class="icon-btn email-icn"><i class="fa fa-envelope"></i></a>
+          <a href="https://www.linkedin.com/company/opensourcejam" target="_blank" class="icon-btn linkedin-icn"><i class="fa fa-linkedin"></i></a>
+          <a href="tel:+1234567890" class="icon-btn phone-icn"><i class="fa fa-phone"></i></a>
+          <br><br>
+          <p>COPYRIGHT © 2023 OpenSourceJam</p>
+
+        </div>
+
+    <script src="main.js"></script>
+    </body>
 </html>
