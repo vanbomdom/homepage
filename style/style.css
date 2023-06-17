@@ -205,14 +205,6 @@ h1 {
     h1 {
         font-size: 30px;
     }
-        .about-t4 {
-            font-size: clamp(26px, 6vw, 36px);
-            font-weight: 600;
-            color: #cb9897;
-            margin: 0 10px; 
-            
-        }
-        
         .about_box {
             display: flex;
             align-items: center;
@@ -230,7 +222,6 @@ h1 {
         }
         .img-round {
             margin-left: 0;
-            
         }
     
         .about_img {
@@ -247,6 +238,4 @@ h1 {
         #aboutme{
             margin: 0 auto;
         }
-
-    
 }
