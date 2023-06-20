@@ -26,18 +26,32 @@ h1 {
     word-wrap: break-word;
 }
 
+h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
 #welcome {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: border-box;
 }
+
 .welcome{
     color:#409FFF;
     font-weight: 800;
 }
 
-#header a {
+#wrapper1 a {
     font-size: 45px;
     color: #fff;
     -webkit-transition: all .2s ease-in-out;
@@ -45,8 +59,9 @@ h1 {
     transition: all .2s ease-in-out;
 }
 
-#header a:hover {
+#wrapper1 a:hover {
     font-size: 50px;
+    color:#409FFF;
 }
 
 /* SCROLL DOWN ARROW */
@@ -56,4 +71,17 @@ h1 {
 
 .fa-angle-double-down:hover{
     color: #409FFF;
+}
+
+  /* SECTION 1 WRAPPER */
+#wrapper1 {
+    font-family: Roboto Slab;
+    padding: 0;
+    margin: 0;
+    color: white;
+    position: center;
+    background: url('https://th.bing.com/th/id/R.a1dc3bf797de91fd9a97bd398a30b0e5?rik=%2f8Y0eZTdgB7p1w&riu=http%3a%2f%2fwww.publicdomainpictures.net%2fpictures%2f190000%2fvelka%2fblack-background-1468370534d5s.jpg&ehk=eA4xvYoBRxONq7xR5ZHrfYPCHj3xXDirdaxRntUp3RI%3d&risl=&pid=ImgRaw&r=0');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
 }
